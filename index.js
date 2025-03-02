@@ -34,7 +34,7 @@ pfServer.use(router)
 //first argument should  the name in which we are using the folder in the client side
 //second arg - static  method to export the folder
 //static meethod should have the path ofthe export folder
-pfServer.use('/uploads',express.static('./uploads'))
+pfServer.use('/uploads',express.static('uploads'))
 
 
 
