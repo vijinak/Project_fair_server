@@ -46,11 +46,11 @@ pfServer.listen(PORT,()=>{
     console.log(`server running successfully at port number : ${PORT}`);
 })
 
-//get request
-// pfServer.get('/',(req,res)=>{
-//     //logic
-//     res.send('get request recived')
-// })
+// get request
+pfServer.get('/',(req,res)=>{
+    //logic
+    res.send('get request recived')
+})
 
 // //post requeste
 // pfServer.post('/',(req,res)=>{
